@@ -41,7 +41,9 @@ const filterNode = (value: string, data: Tree) => {
   return data.label.includes(value)
 }
 
-const data: Tree[] = [
+let data: Tree[] =[] 
+  
+  data=[
   {
     id: 1,
     label: 'Level one 1',
